@@ -1,7 +1,0 @@
-{
-  "code-runner.runInTerminal": true,
-  // 覆盖 C++ 的编译命令：把产物输出到 build/ 子目录
-  "code-runner.executorMap": {
-    "cpp": "mkdir -p build && g++ -std=c++11 $fileName -o build/$fileNameWithoutExt && ./build/$fileNameWithoutExt"
-  }
-}
